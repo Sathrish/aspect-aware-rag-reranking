@@ -1,0 +1,56 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset, embeddings and score caches (downloaded / regenerated at runtime)
+data/nfcorpus/
+data/nfcorpus.zip
+data/cache/
+*.npy
+*.npz
+*.zip
+
+# Model files and Hugging Face caches
+.cache/
+hf_cache/
+huggingface/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local settings
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# Private documents: never commit
+*.pdf
+*.docx
+*certificate*
+*Certificate*
+*.jpg
+*.jpeg
+docs/private/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

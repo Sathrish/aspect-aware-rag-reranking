@@ -1,0 +1,61 @@
+Query,System,Aspects,Doc ids (ranked),Prompt tokens,Same order as CrossEncoder,Same set as CrossEncoder
+Do statins cause breast cancer?,BM25,statins cause; breast cancer,MED-14 MED-2429 MED-2431 MED-10 MED-2428,510,False,True
+Do statins cause breast cancer?,Dense,statins cause; breast cancer,MED-2429 MED-14 MED-10 MED-2431 MED-4759,510,False,False
+Do statins cause breast cancer?,Dense + CrossEncoder,statins cause; breast cancer,MED-2429 MED-14 MED-10 MED-2431 MED-2428,510,True,True
+Do statins cause breast cancer?,Dense + Aspect-Aware,statins cause; breast cancer,MED-2429 MED-14 MED-10 MED-2431 MED-2428,510,True,True
+How does vitamin D deficiency affect health?,BM25,vitamin deficiency; affect health,MED-4574 MED-4575 MED-716 MED-3985 MED-921,507,False,False
+How does vitamin D deficiency affect health?,Dense,vitamin deficiency; affect health,MED-716 MED-4574 MED-4573 MED-4566 MED-4575,509,False,False
+How does vitamin D deficiency affect health?,Dense + CrossEncoder,vitamin deficiency; affect health,MED-4575 MED-716 MED-4574 MED-3985 MED-714,509,True,True
+How does vitamin D deficiency affect health?,Dense + Aspect-Aware,vitamin deficiency; affect health,MED-4575 MED-716 MED-4574 MED-3985 MED-714,509,True,True
+What are the effects of dietary fat on cancer?,BM25,effects dietary; cancer,MED-3832 MED-1540 MED-3874 MED-4885 MED-4233,509,False,False
+What are the effects of dietary fat on cancer?,Dense,effects dietary; cancer,MED-4826 MED-2513 MED-2437 MED-3557 MED-4070,509,False,False
+What are the effects of dietary fat on cancer?,Dense + CrossEncoder,effects dietary; cancer,MED-4233 MED-3862 MED-5066 MED-4450 MED-4069,509,True,True
+What are the effects of dietary fat on cancer?,Dense + Aspect-Aware,effects dietary; cancer,MED-4233 MED-3862 MED-5066 MED-4450 MED-4069,509,True,True
+How does exercise affect cancer risk?,BM25,exercise affect; cancer risk,MED-2044 MED-1611 MED-2105 MED-4465 MED-4239,510,False,False
+How does exercise affect cancer risk?,Dense,exercise affect; cancer risk,MED-4787 MED-2044 MED-1714 MED-4452 MED-5341,510,False,False
+How does exercise affect cancer risk?,Dense + CrossEncoder,exercise affect; cancer risk,MED-2044 MED-5341 MED-1611 MED-1714 MED-4239,510,True,True
+How does exercise affect cancer risk?,Dense + Aspect-Aware,exercise affect; cancer risk,MED-2044 MED-5341 MED-1611 MED-1714 MED-4239,510,True,True
+What is the role of omega-3 fatty acids in health?,BM25,role omega-3; fatty acids; health,MED-4626 MED-1397 MED-839 MED-5371 MED-1576,511,False,False
+What is the role of omega-3 fatty acids in health?,Dense,role omega-3; fatty acids; health,MED-2752 MED-839 MED-2411 MED-5371 MED-2754,511,False,False
+What is the role of omega-3 fatty acids in health?,Dense + CrossEncoder,role omega-3; fatty acids; health,MED-2752 MED-2398 MED-2754 MED-839 MED-5371,511,True,True
+What is the role of omega-3 fatty acids in health?,Dense + Aspect-Aware,role omega-3; fatty acids; health,MED-2752 MED-2398 MED-2754 MED-839 MED-4345,511,False,False
+Does red meat consumption increase cancer risk?,BM25,meat consumption; increase cancer; risk,MED-3000 MED-4487 MED-1817 MED-3782 MED-5326,511,False,False
+Does red meat consumption increase cancer risk?,Dense,meat consumption; increase cancer; risk,MED-3000 MED-4493 MED-4487 MED-5035 MED-5195,511,False,False
+Does red meat consumption increase cancer risk?,Dense + CrossEncoder,meat consumption; increase cancer; risk,MED-5326 MED-3000 MED-4482 MED-4487 MED-1817,511,True,True
+Does red meat consumption increase cancer risk?,Dense + Aspect-Aware,meat consumption; increase cancer; risk,MED-5326 MED-3000 MED-1817 MED-4482 MED-4487,511,False,True
+What are the health effects of sugar consumption?,BM25,health effects; sugar consumption,MED-1707 MED-1674 MED-1710 MED-1625 MED-1058,512,False,False
+What are the health effects of sugar consumption?,Dense,health effects; sugar consumption,MED-1709 MED-1708 MED-1625 MED-1707 MED-1710,512,False,True
+What are the health effects of sugar consumption?,Dense + CrossEncoder,health effects; sugar consumption,MED-1708 MED-1707 MED-1710 MED-1625 MED-1709,512,True,True
+What are the health effects of sugar consumption?,Dense + Aspect-Aware,health effects; sugar consumption,MED-1708 MED-1707 MED-1710 MED-1625 MED-1709,512,True,True
+How does fiber intake affect colon health?,BM25,fiber intake; affect colon; health,MED-1045 MED-2291 MED-2105 MED-4517 MED-4639,511,False,False
+How does fiber intake affect colon health?,Dense,fiber intake; affect colon; health,MED-1045 MED-1582 MED-4639 MED-4517 MED-4637,510,False,False
+How does fiber intake affect colon health?,Dense + CrossEncoder,fiber intake; affect colon; health,MED-1045 MED-2529 MED-4637 MED-1582 MED-4639,510,True,True
+How does fiber intake affect colon health?,Dense + Aspect-Aware,fiber intake; affect colon; health,MED-1045 MED-2529 MED-4637 MED-1582 MED-4639,510,True,True
+What is the relationship between obesity and cancer?,BM25,is the relationship between obesity; cancer,MED-3703 MED-2437 MED-1540 MED-4087 MED-1780,512,False,False
+What is the relationship between obesity and cancer?,Dense,is the relationship between obesity; cancer,MED-1718 MED-2162 MED-1717 MED-1716 MED-4823,511,False,False
+What is the relationship between obesity and cancer?,Dense + CrossEncoder,is the relationship between obesity; cancer,MED-1718 MED-2154 MED-1716 MED-2162 MED-3698,512,True,True
+What is the relationship between obesity and cancer?,Dense + Aspect-Aware,is the relationship between obesity; cancer,MED-1718 MED-2154 MED-1716 MED-2162 MED-3698,512,True,True
+How does alcohol consumption affect cancer risk?,BM25,alcohol consumption; affect cancer; risk,MED-4445 MED-3762 MED-3768 MED-2161 MED-3696,511,False,False
+How does alcohol consumption affect cancer risk?,Dense,alcohol consumption; affect cancer; risk,MED-3765 MED-3767 MED-3762 MED-3766 MED-3696,511,False,False
+How does alcohol consumption affect cancer risk?,Dense + CrossEncoder,alcohol consumption; affect cancer; risk,MED-3767 MED-3696 MED-3762 MED-3766 MED-4445,511,True,True
+How does alcohol consumption affect cancer risk?,Dense + Aspect-Aware,alcohol consumption; affect cancer; risk,MED-3767 MED-3696 MED-3762 MED-3766 MED-4445,511,True,True
+What are the benefits of Mediterranean diet?,BM25,benefits mediterranean; diet,MED-1374 MED-1398 MED-1366 MED-1505 MED-1400,511,False,False
+What are the benefits of Mediterranean diet?,Dense,benefits mediterranean; diet,MED-1374 MED-1363 MED-1407 MED-1366 MED-1398,511,False,False
+What are the benefits of Mediterranean diet?,Dense + CrossEncoder,benefits mediterranean; diet,MED-1374 MED-3422 MED-1398 MED-1400 MED-1407,511,True,True
+What are the benefits of Mediterranean diet?,Dense + Aspect-Aware,benefits mediterranean; diet,MED-1374 MED-3422 MED-1398 MED-1400 MED-1407,511,True,True
+How does insulin resistance relate to cancer?,BM25,insulin resistance; relate cancer,MED-1467 MED-2388 MED-1716 MED-1460 MED-1466,510,False,False
+How does insulin resistance relate to cancer?,Dense,insulin resistance; relate cancer,MED-1611 MED-1459 MED-5232 MED-1716 MED-2513,510,False,False
+How does insulin resistance relate to cancer?,Dense + CrossEncoder,insulin resistance; relate cancer,MED-1611 MED-1459 MED-1467 MED-5232 MED-1463,510,True,True
+How does insulin resistance relate to cancer?,Dense + Aspect-Aware,insulin resistance; relate cancer,MED-1611 MED-1459 MED-1467 MED-5232 MED-1463,510,True,True
+What is the effect of antioxidants on disease?,BM25,effect antioxidants; disease,MED-1499 MED-1397 MED-5265 MED-3734 MED-2970,508,False,False
+What is the effect of antioxidants on disease?,Dense,effect antioxidants; disease,MED-2703 MED-3452 MED-2696 MED-2664 MED-3451,507,False,False
+What is the effect of antioxidants on disease?,Dense + CrossEncoder,effect antioxidants; disease,MED-4149 MED-4522 MED-1200 MED-5083 MED-2695,508,True,True
+What is the effect of antioxidants on disease?,Dense + Aspect-Aware,effect antioxidants; disease,MED-4149 MED-4522 MED-1200 MED-5083 MED-2695,508,True,True
+How does green tea affect cancer prevention?,BM25,green affect; cancer prevention,MED-5052 MED-4330 MED-4097 MED-4775 MED-4050,511,False,False
+How does green tea affect cancer prevention?,Dense,green affect; cancer prevention,MED-4050 MED-5052 MED-4777 MED-4097 MED-4330,511,False,True
+How does green tea affect cancer prevention?,Dense + CrossEncoder,green affect; cancer prevention,MED-4097 MED-5052 MED-4777 MED-4050 MED-4330,511,True,True
+How does green tea affect cancer prevention?,Dense + Aspect-Aware,green affect; cancer prevention,MED-4097 MED-5052 MED-4777 MED-4050 MED-4330,511,True,True
+What is the role of probiotics in gut health?,BM25,role probiotics; health,MED-3673 MED-3692 MED-4760 MED-4640 MED-1413,510,False,False
+What is the role of probiotics in gut health?,Dense,role probiotics; health,MED-3692 MED-1413 MED-3679 MED-3677 MED-3690,510,False,False
+What is the role of probiotics in gut health?,Dense + CrossEncoder,role probiotics; health,MED-3692 MED-3695 MED-3677 MED-3690 MED-4266,510,True,True
+What is the role of probiotics in gut health?,Dense + Aspect-Aware,role probiotics; health,MED-3692 MED-3695 MED-3677 MED-3690 MED-4266,510,True,True

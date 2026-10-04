@@ -1,0 +1,17 @@
+Query,BM25,Dense,Dense + CrossEncoder,Dense + Aspect-Aware
+Do statins cause breast cancer?,0.2667,0.2667,0.2581,0.2581
+How does vitamin D deficiency affect health?,0.2326,0.2083,0.2083,0.2083
+What are the effects of dietary fat on cancer?,0.2759,0.0,0.2759,0.2759
+How does exercise affect cancer risk?,0.1026,0.125,0.1026,0.1026
+What is the role of omega-3 fatty acids in health?,0.1,0.3571,0.3571,0.0909
+Does red meat consumption increase cancer risk?,0.2,0.1667,0.3158,0.6
+What are the health effects of sugar consumption?,0.1538,0.2273,0.2273,0.2273
+How does fiber intake affect colon health?,0.1212,0.2857,0.2286,0.2286
+What is the relationship between obesity and cancer?,0.1176,0.3158,0.5833,0.5833
+How does alcohol consumption affect cancer risk?,0.3077,0.1176,0.3077,0.3077
+What are the benefits of Mediterranean diet?,0.3125,0.3125,0.3125,0.3125
+How does insulin resistance relate to cancer?,0.0625,0.15,0.0,0.0
+What is the effect of antioxidants on disease?,0.129,0.0625,0.1379,0.1379
+How does green tea affect cancer prevention?,0.2703,0.0476,0.0645,0.0645
+What is the role of probiotics in gut health?,0.0,0.2222,0.2,0.2
+AVERAGE,0.1768,0.191,0.2386,0.2398

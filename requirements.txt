@@ -1,0 +1,10 @@
+# Versions used for the reported results (Python 3.12, CPU). Python 3.10+ is supported.
+torch==2.14.1
+sentence-transformers==6.1.0
+transformers==5.18.0
+faiss-cpu==1.15.1
+rank-bm25==0.2.2
+rouge-score==0.1.2
+numpy==2.5.3
+pandas==3.0.6
+matplotlib==3.11.2
